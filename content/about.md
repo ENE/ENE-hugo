@@ -1,12 +1,12 @@
 +++
-date = "2015-08-22"
-title = "About"
+date = "2017-02-12"
+title = "Contato"
 +++
 
-_With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end._
+Atualmente (fevereiro de 2017) somos apenas dois irmãos filhos de um idoso novo que é portador de ELA ‒ Esclerose Lateral Amiotrófica. Contate-nos para mais detalhes técnicos ou parcerias. Nossa primeira intenção aqui é compartilhar o aprendido.
 
-Along with [Ford Prefect](https://en.wikipedia.org/wiki/Ford_Prefect_\(character\)), Dent barely escapes the Earth's destruction as it is demolished to make way for a *hyperspace bypass*. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.  
- 
-> He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy.  
- 
-In time, he learns how to fly and carves a niche for himself as a sandwich-maker.
+- [Alan Dickson] preferencialmente para assuntos relacionados ao sistema Windows
+- [Alexandre Magno] preferencialmente para assuntos da comunidade ENE
+
+[Alan Dickson]: mailto:alandbm@gmail.com
+[Alexandre Magno]: mailto:alexandre.mbm@gmail.com

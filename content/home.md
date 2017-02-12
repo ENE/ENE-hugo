@@ -2,6 +2,8 @@
 title = "Home"
 +++
 
-_This is the home page. It will display the blog section if there is one, and a text before._
+_«Queremos ser uma comunidade DIY brasileira focada em aplicar [FOSS] nos processos comunicativos de pessoas com Esclerose Lateral Amiotrófica ou Doença do Neurônio Motor»_
 
-Hey ! Welcome to the **Cocoa Enhanced theme**. Here are some articles :
+**Confira nossas últimas comunicações:**
+
+[FOSS]: https://pt.wikipedia.org/wiki/Software_livre_e_de_c%C3%B3digo_aberto
