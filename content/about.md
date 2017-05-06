@@ -3,10 +3,10 @@ date = "2017-02-12"
 title = "Contato"
 +++
 
-Atualmente (fevereiro de 2017) somos apenas dois irmãos filhos de um idoso novo que é portador de ELA ‒ Esclerose Lateral Amiotrófica. Contate-nos para mais detalhes técnicos ou parcerias. Nossa primeira intenção aqui é compartilhar o aprendido.
+Somos filhos de um idoso com ELA ‒ Esclerose Lateral Amiotrófica. Compartilhamos as soluções _low-tech_ e _high-tech_ que desenvolvemos.
 
-- [Alan Dickson] preferencialmente para assuntos relacionados ao sistema Windows
-- [Alexandre Magno] preferencialmente para assuntos da comunidade ENE
+[Alan Dickson] é pesquisador  
+[Alexandre Magno] é organizador
 
 [Alan Dickson]: mailto:alandbm@gmail.com
 [Alexandre Magno]: mailto:alexandre.mbm@gmail.com

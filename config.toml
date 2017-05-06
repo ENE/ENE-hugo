@@ -1,4 +1,4 @@
-baseurl = "https://ene.github.io/"
+baseurl = "http://ene.origem.net.br/"
 theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
@@ -8,7 +8,7 @@ layoutdir = "layouts"
 publishdir = "public"
 author = "Alexandre Magno"
 title = "ENE não é ELA"
-disqusshortname = ""
+disqusshortname = "ene-nao-e-ela"
 pluralizelisttitles = false
 
 [permalinks]
@@ -28,3 +28,4 @@ github = "ENE"
 email = ""
 linkedin = ""
 twitter = ""
+mailmunchid = "374977"
