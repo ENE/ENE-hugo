@@ -16,7 +16,9 @@ echo -n "   > "
 COMMIT="git commit -a --amend --no-edit";
 if [ -n "$1" ]
 then
-    COMMIT="git commit -a -m \"$1\""
+    touch commit.txt
+    echo "$1" > commit.txt
+    COMMIT="git commit -a -F $(pwd)/commit.txt"
     echo "You will commit with message" 
 else
     echo "you will amend" 
