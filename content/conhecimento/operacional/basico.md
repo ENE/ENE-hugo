@@ -19,12 +19,21 @@ Para uma operacionalização básica, temos:
 
 - Fluxo principal
 
-E quatro subfluxos:
+Mais cinco subfluxos:
 
 - Ações com teclado
 - Verificar cabos e energia
+- Gerir telas
 - Calibração
 - WhatsApp
+
+E outro referido pelos dois últimos acima:
+
+- Fechar OptiKey
+
+Se você nunca ouviu falar de fluxogramas, uma dica é tentar deixar as imagens falarem por si. Deixe que blocos, setas e notas guiem você, um passo por vez.
+
+Em dispositivo móvel, você pode ampliar e navegar essas imagens usando o movimento de pinça. No desktop, experimente o zoom do navegador de Internet, geralmente `Control+`. 
 
 ## Fluxo principal
 
@@ -60,6 +69,16 @@ O ponto de fim ideal seria o retorno a “Reconhecimento facial” — retângul
 
 [Lei de Murphy]: https://pt.wikipedia.org/wiki/Lei_de_Murphy
 
+## Gerir telas
+
+É escolher qual tela deixar acesa ou apagada.
+
+Nosso equipamento tem um monitor grande, de 24 polegadas, anexado a um notebook conversível em _tablet_. O paciente, principal usuário, usa o monitor. Mas seu assistente quase sempre precisará da _touchscreen_.
+
+{{< figure src="/conhecimento/fluxogramas/06-telas.png" >}}
+
+Por motivos variados pode-se querer gerir as telas, e torna-se obrigatório pelo menos duas vezes dentro do fluxo principal.
+
 ## Calibração
 
 Estamos diante de um subfluxo crucial. Definitivamente não é opcional. Sem uma calibragem fina o paciente não suportará por muito tempo usar o teclado de digitação (que ocupa apenas metade da tela) ou as funções de mouse.
@@ -91,3 +110,15 @@ A volta maior, fazendo duas perguntas e depois não ensinando mais nada, apontan
 Talvez tudo mude.
 
 Mas já funciona. Tente outra vez ou nos [envie](mailto:alexandre.mbm@gmail.com) sua questão.
+
+## Fechar OptiKey
+
+Nem sempre se consegue completar essa tarefa usando a _touchscreen_. Curiosamente o toque deixa de funcionar. Siga as dicas das notas. 
+
+{{< figure src="/conhecimento/fluxogramas/07-fechar.png" >}}
+
+Por motivos variados pode-se querer fechar o OptiKey. E será obrigatório em pelo menos dois momentos: uma vez para calibração, uma vez para WhatsApp.
+
+Qualquer dúvida não hesite escrever a [alexandre.mbm@gmail.com].
+
+[alexandre.mbm@gmail.com]: mailto:alexandre.mbm@gmail.com
