@@ -25,16 +25,23 @@
 
 if [ "$1" == "install" ]; then
 
-    # TODO fixes or cares
-
-    export HUGO_PROJECT=$(pwd)
-    export PATH=$PATH:$HUGO_PROJECT
+    echo
     eval $(ssh-agent -s)
     ssh-add
     ssh -T git@github.com
+    echo
+    echo "   > export HUGO_PROJECT=\$(pwd)"
+    echo
+    echo "   > export PATH=\$PATH:\$HUGO_PROJECT"
+    echo
     exit 0
 
 fi
+
+# TODO check for $HUGO_PROJECT
+# TODO check for $PATH
+
+# TODO check with ssh -T
 
 if [ -z $HUGO_PROJECT ]; then
 
