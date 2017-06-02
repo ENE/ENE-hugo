@@ -124,11 +124,11 @@ Por motivos variados pode-se querer fechar o OptiKey. E será obrigatório em pe
 
 ## Fechar OptiKey (simplificado)
 
-Conhecer o fluxo acima é interessante para quando, por exemplo, o OptiKey estiver em tela cheia (teclado de conversação). Mas noutras circunstâncias será muito mais rápido seguir os passos abaixo:
+Conhecer o fluxo acima é interessante para quando, por exemplo, o OptiKey estiver em tela cheia (teclado de conversação). Noutras circunstâncias será muito mais rápido seguir os passos abaixo:
 
 {{< figure src="/conhecimento/fluxogramas/08-fechar.png" >}}
 
-Dessa maneira o OptiKey encerrará prontamente, sem qualquer pergunta. Fechá-lo pode parecer algo banal, e realmente é. Mas há as duas maneiras de fazê-lo e elas são específicas de algumas circunstâncias.
+Dessa maneira o OptiKey encerrará prontamente, sem qualquer pergunta. Fechá-lo pode parecer algo banal, e realmente é. Mas há duas maneiras de fazê-lo e são específicas de algumas circunstâncias.
 
 ---
 
