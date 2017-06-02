@@ -52,9 +52,9 @@ Estamos num caso de exceção e por isso decidimos não iniciar o fluxograma des
 
 {{< figure src="/conhecimento/fluxogramas/02-teclado.png" >}}
 
-Eis o fluxo mais fácil de todos! Uma sequência sem decisões.
+~~Eis o fluxo mais fácil de todos!~~ Uma sequência sem decisões. Só não é mais fácil do que o "Fechar OptiKey (simplificado)".
 
-Lembre-se de que o fim desse subfluxo (acima) é o retorno a "Reconhecimento facial" como ação em retângulo verde no fluxograma fluxo principal.
+Lembre-se: ao fim do subfluxo descrito acima, como sugerido pela elipse vermelha, retorna-se para "Reconhecimento facial", que é uma ação em retângulo verde no fluxo principal.
 
 ## Verificar cabos e energia
 
