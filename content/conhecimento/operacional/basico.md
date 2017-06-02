@@ -29,7 +29,8 @@ Mais cinco subfluxos:
 
 E outro referido pelos dois últimos acima:
 
-- Fechar OptiKey
+- Fechar OptiKey **OU**
+- Fechar OptiKey (simplificado)
 
 Se você nunca ouviu falar de fluxogramas, uma dica é tentar deixar as imagens falarem por si. Deixe que blocos, setas e notas guiem você, um passo por vez.
 
@@ -79,6 +80,8 @@ Nosso equipamento tem um monitor grande, de 24 polegadas, anexado a um notebook 
 
 Por motivos variados pode-se querer gerir as telas, e torna-se obrigatório pelo menos duas vezes dentro do fluxo principal.
 
+Uma maneira \[nem sempre\] simplificada de alternar entre os modos é acionar o atalho Tela que encontra-se na Área de Trabalho. Porém, nem sempre consegue-se chegar até ele por um caminho padronizado, devido a problemas técnicos orindos do OptiKey. Se você conseguir chegar à Área de Trabalho usando combinações de `Alt+Tab`e `Windows+D`, com certeza gostará do atalho Tela.
+
 ## Calibração
 
 Estamos diante de um subfluxo crucial. Definitivamente não é opcional. Sem uma calibragem fina o paciente não suportará por muito tempo usar o teclado de digitação (que ocupa apenas metade da tela) ou as funções de mouse.
@@ -119,6 +122,16 @@ Nem sempre se consegue completar essa tarefa usando a _touchscreen_. Curiosament
 
 Por motivos variados pode-se querer fechar o OptiKey. E será obrigatório em pelo menos dois momentos: uma vez para calibração, uma vez para WhatsApp.
 
-Qualquer dúvida não hesite escrever a [alexandre.mbm@gmail.com].
+## Fechar OptiKey (simplificado)
+
+Conhecer o fluxo acima é interessante para quando, por exemplo, o OptiKey estiver em tela cheia (teclado de conversação). Mas noutras circunstâncias será muito mais rápido seguir os passos abaixo:
+
+{{< figure src="/conhecimento/fluxogramas/08-fechar.png" >}}
+
+Dessa maneira o OptiKey encerrará prontamente, sem qualquer pergunta. Fechá-lo pode parecer algo banal, e realmente é. Mas há as duas maneiras de fazê-lo e elas são específicas de algumas circunstâncias.
+
+---
+
+Dúvidas ou sugestões? Não hesite contatar [alexandre.mbm@gmail.com].
 
 [alexandre.mbm@gmail.com]: mailto:alexandre.mbm@gmail.com
