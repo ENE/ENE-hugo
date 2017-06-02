@@ -53,8 +53,8 @@ fi
 function show_help() {
 
     echo
-    echo "  hman                     Back to root"
-    echo "       md                  To check Markdown, and can back to root"
+    echo "  hman                     Points to root"
+    echo "       md                  To check Markdown, and points to root"
     echo "       html                To check the HTML and enter into it"
     echo "       commit [message]    Commit"
     echo
