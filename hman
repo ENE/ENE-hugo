@@ -23,25 +23,36 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-if [ "$1" == "install" ]; then
+FPS=$(echo "$(ps -o args= $PPID)" | sed "s/^.*\/\([^\/]*\)$/\1/g")
 
-    echo
-    eval $(ssh-agent -s)
-    ssh-add
-    ssh -T git@github.com
-    echo
-    echo "   > export HUGO_PROJECT=\$(pwd)"
-    echo
-    echo "   > export PATH=\$PATH:\$HUGO_PROJECT"
-    echo
-    exit 0
+if [ "$FPS" == "gnome-terminal-server" ]; then
+
+    [ -n "$*" ] && echo "no parameters please; just 'source hman'" && return
+
+    shopt -s cdable_vars
+
+    # set vars
+
+    export HUGO_PROJECT=$(pwd)
+    export md=$HUGO_PROJECT
+    export html=$HUGO_PROJECT/public
+
+    which hman &>/dev/null; [ $? -ne 0 ] && PATH=$PATH:$HUGO_PROJECT
+
+    # enable the ssh keys in this console
+
+    ssh-add -L &>/dev/null; [ $? -eq 2 ] && eval $(ssh-agent -s)
+    ssh-add -L &>/dev/null; [ $? -eq 1 ] && ssh-add
+
+    ssh -T git@github.com  # test
+
+    return  # because we are running directly from Terminal
 
 fi
 
-# TODO check for $HUGO_PROJECT
-# TODO check for $PATH
+# TODO fix when executing bash (child) from bash (father terminal)
 
-# TODO check with ssh -T
+# TODO [un]install
 
 if [ -z $HUGO_PROJECT ]; then
 
@@ -68,7 +79,7 @@ function untracked_count() {
 }
 
 function untracked_cd() {
-    [ $(untracked_count) -ne 0 ] && echo -e "\n  > cd $(pwd)"
+    [ $(untracked_count) -ne 0 ] && echo -e "\n  > cd $1"
 }
 
 function untracked_abort() {
@@ -84,7 +95,7 @@ function status_md() {
     echo "MARKDOWN STATUS"
     echo
     git status
-    untracked_cd
+    untracked_cd "md"
     echo
 
 }
@@ -99,7 +110,7 @@ function status_html() {
     echo
     cd public
     git status
-    untracked_cd
+    untracked_cd "html"
     cd ..
     echo
 
@@ -169,7 +180,7 @@ case $1 in
         ;;
 
     '')
-        echo -e "\n  > cd $HUGO_PROJECT\n"
+        echo -e "\n  > cd md\n"
         ;;
 
     -h|--help)
